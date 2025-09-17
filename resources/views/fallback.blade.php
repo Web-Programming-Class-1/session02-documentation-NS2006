@@ -7,9 +7,14 @@
     <title>Fallback</title>
 
     <style>
+        body{
+            background-color: black;
+        }
+
         h1{
             font-size: 16em;
-            text-align: center
+            text-align: center;
+            color: red;
         }
     </style>
 </head>
