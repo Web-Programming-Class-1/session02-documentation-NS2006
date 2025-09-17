@@ -51,3 +51,10 @@ Route::get('/profile/{username}', function($username){
 Route::fallback(function(){
     return response()->view('fallback', [], 404);
 });
+
+Route::match(['get', 'post'], '/feedback', function (\Illuminate\Http\Request $request) {
+    if ($request->isMethod('post')) {
+        return 'Form submitted';
+    }
+    return view('feedback');
+});
