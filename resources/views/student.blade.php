@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Student Page</title>
+</head>
+<body>
+    <h1>Student Page</h1>
+    <a href="/">Index Page</a>
+    <a href="/lecturer">Lecturer Page</a>
+</body>
+</html>
